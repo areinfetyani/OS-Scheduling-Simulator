@@ -77,7 +77,6 @@ java Main
 * **University**: \[Birzeit University]
 * **Instructor**: \[Dr. Ali Jaber]
 
----
 
 ## 📝 License
 
