@@ -1,6 +1,3 @@
-Absolutely! Here's the **complete and clean `README.md`** content in **one single Markdown cell** — ready to copy and paste into your project:
-
-```markdown
 # OS-Scheduling-Simulator
 
 A Java-based simulator for evaluating and comparing the performance of four popular CPU scheduling algorithms: **FCFS (First-Come First-Served)**, **SRTF (Shortest Remaining Time First)**, **Round Robin**, and **MLFQ (Multi-Level Feedback Queue)**. Developed for the Operating Systems course project.
