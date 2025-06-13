@@ -2,7 +2,6 @@
 
 A Java-based simulator for evaluating and comparing the performance of four popular CPU scheduling algorithms: **FCFS (First-Come First-Served)**, **SRTF (Shortest Remaining Time First)**, **Round Robin**, and **MLFQ (Multi-Level Feedback Queue)**. Developed for the Operating Systems course project.
 
----
 
 ## 📚 Project Description
 
@@ -13,7 +12,6 @@ This project simulates how different CPU scheduling algorithms affect process ex
 
 Each algorithm is tested across varying simulation scales: **100, 1000, 10000, and 100000 process sets** — all randomly generated. The results are printed in table format for easy comparison.
 
----
 
 ## ⚙️ Features
 
@@ -29,23 +27,11 @@ Each algorithm is tested across varying simulation scales: **100, 1000, 10000, a
 - Dynamically generates process arrival and burst times
 - Outputs well-formatted tables of average metrics per algorithm and per iteration count
 
----
 
-## 🧪 Sample Output (Formatted)
+## 🧪 Sample Output 
 
-```
+![Screenshot 2025-06-13 165410](https://github.com/user-attachments/assets/301807fc-e017-49d7-b2eb-809393586005)
 
-\|------------------------#FCFS#--------------------------|
-
-|     | 100     | 1000    | 10000   | 100000  |
-| --- | ------- | ------- | ------- | ------- |
-| ATT | 97.1234 | 99.5678 | 98.1234 | 97.9876 |
-| AWT | 45.2345 | 48.1234 | 47.2345 | 46.9987 |
-| ... |         |         |         |         |
-
-````
-
----
 
 ## 🧑‍💻 How It Works
 
@@ -60,7 +46,6 @@ Each algorithm is tested across varying simulation scales: **100, 1000, 10000, a
   - `calcAvg()`
   - `fillArrays()`
 
----
 
 ## 📁 Structure
 
@@ -73,7 +58,6 @@ Each algorithm is tested across varying simulation scales: **100, 1000, 10000, a
 - Data Arrays:
   - `at[]`, `bt[]`, `ct[]`, `tt[]`, `wt[]`, `rt[]` — Arrival, Burst, Completion, Turnaround, Waiting, Remaining
 
----
 
 ## 🛠️ Requirements
 
@@ -85,7 +69,6 @@ javac Main.java
 java Main
 ````
 
----
 
 ## 📘 Course Information
 
